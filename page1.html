@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Page 1</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link href="bootstrap/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/fontawesome.min.css">
+</head>
+
+<body>
+    <div class="head-title">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 d-none d-lg-block">
+                    <ul class="title-left">
+                        <li><a href="#"><object data="assets/Group 43.svg" class="icon-double-check"
+                                    height="10px">::before</object> Schneller Versand </a></li>
+                        <li><a href="#"><object data="assets/Group 43.svg" class="icon-double-check"
+                                    height="10px">::before</object> Top Preise </a></li>
+                        <li><a href="#"><object data="assets/Group 43.svg" class="icon-double-check"
+                                    height="10px">::before</object> Versand auf Rechnung </a></li>
+                        <li><a href="#"><object data="assets/Group 43.svg" class="icon-double-check"
+                                    height="10px">::before</object> Spitzen Qualität </a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-4 text-center text-lg-right">
+                    <ul class="title-right">
+                        <li class="px-2"><a href="#"><object
+                                    data="assets/iconfinder_5305154_fb_facebook_facebook logo_icon.svg"
+                                    height="13px"></object></a></li>
+                        <li class="px-1"><a href="#"><object data="assets/iconfinder_1161953_instagram_icon.svg"
+                                    height="13px"></object></i></a></li>
+
+
+
+                        <li><a href="#">Kontakt</a></li>
+
+
+
+
+                        <li> <a href="#" id="customer_register_link">Registrieren</a></li>
+                        <li><a href="#" id="customer_login_link">Login </a></li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header>
+        <nav class="navbar2 navbar d-lg-none navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand mr-auto" href="#">
+                    <img src="assets/Logo_pos_250px@2x.png" alt="logo">
+                </a>
+                <a class="position-relative mr-3" href="#">
+                    <i class="icon-buy"></i>
+                    <span class="badge badge-danger d-none d-lg-block d-xl-none">0</span>
+                </a>
+                <button data-trigger=" _main" class="navbar-toggler" type="button"><span
+                        class="navbar-toggler-icon"></span></button>
+            </div>
+        </nav>
+
+        <!-- d-lg-none -->
+        <nav id="navbar_main" class="mobile-offcanvas navbar navbar-expand-lg navbar-light">
+            <div class="container nav-cont" style="position:relative;">
+                <!--<div class="superstore-icon" style="position: absolute; left: -100px; top: -40px; transform: rotate(-15deg);"><img src="https://cdn.shopify.com/s/files/1/0581/0139/9738/t/2/assets/drops-superstore.png" height="100px;"/></div>-->
+                <a class="navbar-brand d-none d-lg-block" href="#">
+                    <img src="assets/Logo_pos_250px@2x.png" alt="logo">
+                </a>
+
+                <div class="offcanvas-header">
+                    <button class="navbar-toggler btn-close"><span class="fa fa-close"></span></button>
+                </div>
+
+                <div class="navigation-collection d-flex flex-wrap align-items-center">
+                    <div id="shopify-section-navigation" class="shopify-section header-section">
+                        <nav id="AccessibleNav" role="navigation" data-section-type="site-navigation">
+                            <ul id="siteNav" class="d-flex flex-wrap site-nav navbar-nav nav">
+
+
+                                <li class="nav-item lvl1 parent dropdown"><a class="nav-link" href="#">Wolle/Garne <i
+                                            class="icon-angle-down"></i></a>
+
+                                </li>
+                                <li class="nav-item lvl1 parent dropdown"><a class="nav-link" href="#">Zubehör <i
+                                            class="icon-angle-down"></i></a>
+                                </li>
+                                <li class="nav-item lvl1"><a class="nav-link" href="#">Showroom</a></li>
+
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item dropdown d-none">
+                        <a class="nav-link" href="#" data-toggle="dropdown"> Wolle/Garne </a>
+                    </li>
+                    <li class="nav-item d-none">
+                        <a class="nav-link" href="#">Zubehör </a>
+                    </li>
+                    <li class="nav-item d-none">
+                        <a class="nav-link" href="#">Showroom </a>
+                    </li>
+                    <li class="nav-item">
+                        <class="form-inline" action="/search" style="position:relative !important;">
+                            <input class="form-control mr-sm-2" type="search" name="q" value="">
+                            <span class="icon-loupe">
+
+                            </span>
+                            </form>
+                    </li>
+                    <li class="nav-item position-relative d-none d-lg-inline-block">
+
+
+
+
+                        <!-- Wishlist Hero Header Icon -->
+                        <a class="site-header__icon site-header__link wishlist-hero-header-icon " href="#"
+                            style="position: relative;">
+                            <i aria-hidden="true" class="wlh-icon-heart-empty wlh-Icon" focusable="false"
+                                role="presentation"
+                                style="font-size: 23px;font-weight:900;padding-top: 3px;color:inherit;"></i>
+                            <span class="wishlist-hero-items-count site-header__cart-count is-visible"
+                                style="display: none;"></span></a>
+                        <!-- end -->
+                    </li>
+                    <li class="nav-item position-relative d-none d-lg-inline-block">
+                        <a class="nav-link" href="#">
+                            <object data="assets/Buy.svg" type=""></object>
+                            <span class="badge badge-danger">0 </span>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+    <main role="main">
+        <main>
+            <section id="shopify-section-slider" class="shopify-section slideshow-title">
+                <section class="specil-offer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card mb-3">
+                                    <div class="row no-gutters">
+                                        <div class="col-md-12 col-lg-12 col-xl-4 order-2 order-xl-1">
+                                            <div class="card-body">
+                                                <h2 class="card-title">
+                                                    Zeit für eine Sonderaktion!
+                                                </h2>
+                                                <h6>35% Rabatt auf 6 Baumwollgarne den ganzen Juni!</h6>
+                                                <p class="card-text">Tolle Neuigkeiten! Im ganzen Juni erhalten Sie 35%
+                                                    Rabatt auf unsere wunderbaren Baumwollgarne, nämlich DROPS Belle,
+                                                    DROPS Bomull-Lin, DROPS Cotton Light, DROPS Muskat, DROPS Paris und
+                                                    DROPS Safran. Die perfekte Gelegenheit, um mit neuen Sommerprojekten
+                                                    zu beginnen!</p>
+                                                <a class="btn btn-primary" href="#">Zum Angebot</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-lg-12 col-xl-8 order-1 order-xl-2">
+                                            <div class="owl-carousel owl-loaded owl-drag" id="special-offer">
+                                                <div class="owl-stage-outer">
+
+                                                </div>
+
+                                            </div>
+                                            <div class="owl-nav"><button type="button" role="presentation"
+                                                    class="owl-prev"><img
+                                                        src="//cdn.shopify.com/s/files/1/0581/0139/9738/t/2/assets/left_small.png?v=43952741634618240891625764337"></button><button
+                                                    type="button" role="presentation" class="owl-next"><img
+                                                        src="//cdn.shopify.com/s/files/1/0581/0139/9738/t/2/assets/right_small.png?v=90861724976893858291625764331"></button>
+                                            </div>
+                                            <div class="owl-dots disabled"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </section>
+
+            </section>
+            <!-- Our Service -->
+            <section class="our-serivce mt-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-3 my-3">
+                            <a href="#">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 style="color: black;">Drops</h4>
+                                        <img src="assets/Group 10@2x.png" alt="drop" height="75px" width="75px" />
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 my-3">
+                            <a href="#" style="color: black;">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4>Material</h4>
+                                        <img src="assets/Group 11@2x.png" alt="aktuell" height="81px" width="81px" />
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 my-3">
+                            <a href="#" style="color: black;">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4>Aktuell</h4>
+                                        <img src="assets/Path 8.png" alt="aktuell">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 my-3">
+                            <a href="#" style="color: black;">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4>Zubehör</h4>
+                                        <img src="assets/Group 12.png" alt="zubehor">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Our Product -->
+            <section class="our-product">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="product-title">Unsere Neuheiten</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <a href="#" class="text-reset">
+                                <div class="mt-5">
+                                    <img style="height: 330px; object-fit: cover;" src="assets/drops-alaska.jpg"
+                                        alt="DROPS Loves You 8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">DROPS Alaska</h5>
+                                        <p class="card-text">CHF 2.95</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <a href="#" class="text-reset">
+                                <div class="mt-5">
+                                    <img style="height: 330px; object-fit: cover;" src="assets/drops-alaska.jpg"
+                                        alt="DROPS Soft Tweed">
+                                    <div class="card-body">
+                                        <h5 class="card-title">DROPS Alaska</h5>
+                                        <p class="card-text">CHF 2.95</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <a href="#" class="text-reset">
+                                <div class="mt-5">
+                                    <img style="height: 330px; object-fit: cover;" src="assets/drops-alaska.jpg"
+                                        alt="Nadelspiel Set (15 cm ideal für Socken) Pro Classic">
+                                    <div class="card-body">
+                                        <h5 class="card-title">DROPS Alaska</h5>
+                                        <p class="card-text">CHF 2.95</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <a href="#" class="text-reset">
+                                <div class="mt-5">
+                                    <img style="height: 330px; object-fit: cover;" src="assets/drops-alaska.jpg"
+                                        alt="Nadelspiel Set Birkenholz Pro Romance">
+                                    <div class="card-body">
+                                        <h5 class="card-title">DROPS Alaska</h5>
+                                        <p class="card-text">CHF 2.95</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <a href="#" class="text-reset">
+                                <div class="mt-5">
+                                    <img style="height: 330px; object-fit: cover;" src="assets/drops-alaska.jpg"
+                                        alt="Nadelspiel Set Birkenholz Pro Romance">
+                                    <div class="card-body">
+                                        <h5 class="card-title">DROPS Alaska</h5>
+                                        <p class="card-text">CHF 2.95</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <a href="#" class="text-reset">
+                                <div class="mt-5">
+                                    <img style="height: 330px; object-fit: cover;" src="assets/drops-alaska.jpg"
+                                        alt="Nadelspiel Set Birkenholz Pro Romance">
+                                    <div class="card-body">
+                                        <h5 class="card-title">DROPS Alaska</h5>
+                                        <p class="card-text">CHF 2.95</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <a href="#" class="text-reset">
+                                <div class="mt-5">
+                                    <img style="height: 330px; object-fit: cover;" src="assets/drops-alaska.jpg"
+                                        alt="Nadelspiel Set Birkenholz Pro Romance">
+                                    <div class="card-body">
+                                        <h5 class="card-title">DROPS Alaska</h5>
+                                        <p class="card-text">CHF 2.95</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <a href="#" class="text-reset">
+                                <div class="mt-5">
+                                    <img style="height: 330px; object-fit: cover;" src="assets/drops-alaska.jpg"
+                                        alt="Nadelspiel Set Birkenholz Pro Romance">
+                                    <div class="card-body">
+                                        <h5 class="card-title">DROPS Alaska</h5>
+                                        <p class="card-text">CHF 2.95</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- End of element main section -->
+        <section class="payment-method">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-6">
+                        <h5>Zahlungsmethoden</h5>
+                        <img width="180" src="assets/Layer 1-2.png" alt="">
+                        <img class="mx-4" width="100" src="assets/Group 26.png" alt="">
+                        <img class="mr-4" width="100" src="assets/twint.png" alt="">
+                        <img width="100" src="assets/visa_large.png" alt="">
+                    </div>
+                    <div class="col-md-12 col-lg-3">
+                        <h5>Versand</h5>
+                        <img width="130" src="assets/Group 48.png" alt="">
+                    </div>
+                    <div class="col-md-12 col-lg-3">
+                        <h5>Versand</h5>
+                        <img width="130" src="assets/Group 26.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-lg-3">
+                        <h5>NAVIGIEREN</h5>
+                        <ul>
+                            <li><a href="#">Marken</a></li>
+                            <li><a href="#">Material</a></li>
+                            <li><a href="#">Neuheiten</a></li>
+                            <li><a href="#">Zubehör</a></li>
+
+
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <h5>RECHTLICHES</h5>
+                        <ul>
+                            <li><a href="#">AGB</a></li>
+                            <li><a href="#">Impressum</a></li>
+                            <li><a href="#">Datenschutz</a></li>
+                            <li><a href="#)">Cookie Einstellungen</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <h5>NÜTZLICHES</h5>
+                        <ul>
+                            <li><a href="#" id="customer_login_link">Login </a></li>
+                            <li><a href="#" id="customer_register_link">Registrieren</a></li>
+                            <li>
+                                <a target="_blank" href="#"><object
+                                        data="assets/iconfinder_5305154_fb_facebook_facebook logo_icon.svg"
+                                        height="20px"></object> </a>
+                                <a target="_blank" href="#"><object data="assets/iconfinder_1161953_instagram_icon.svg"
+                                        height="20px"></object></i> </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <h5>RENIS WOLLSHOP</h5>
+                        <ul>
+                            <p class="mb-3">Showroom <br>
+                                Wolfrietstrasse 8 <br>
+                                7323 Wangs
+                            </p>
+                            <p>Öffnungszeiten nach Vereinbarung
+                                <br>
+                                079 939 33 39 (Mo-Fr 09:30-11:30)
+                            </p>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="footer-bottom text-center">
+                            <p>©2021 Renata Schmitt</p>
+                            <small>made by <a href="#" style="color: #3a474754">CODIA</a></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="bootstrap/bootstrap.bundle.min.js"
+            integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
